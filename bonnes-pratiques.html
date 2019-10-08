@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Training. Are u ready ?</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  </head>
+  <body>
+    <nav>
+    <div class="nav-wrapper">
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="bonnes-pratiques.html" class="btn ">Bonnes pratiques</a></li>
+      <li><a href="glossaire.html" class="btn ">Glossaire</a></li>
+    </ul>
+    </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo" class="red">
+    <li><a href="bonnes-pratiques.html" class="btn ">Bonnes pratiques</a></li>
+    <li><a href="glossaire.html" class="btn ">Glossaire</a></li>
+    </ul>
+<div id="gp-container">
+  <div class="row">
+   <div class="col s12">
+     <div class="card">
+       <div class="card-image">
+         <img id="image"src="http://lorempixel.com/400/200/cats">
+
+         <span class="card-title"></span>
+         <a id="refresh" onclick="document.location.reload(false)" class="  btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">sentiment_very_dissatisfied</i></a>
+
+         <a id="why" class="activator fixed btn-floating center btn-large waves-effect waves-light red"><i class="material-icons">help</i></a>
+
+       </div>
+       <div class="card-content">
+         <h3 id="gp-title"></h3>
+
+       </div>
+       <div class="card-reveal">
+         <a id="close" class="card-title fixed btn-floating center btn-large waves-effect waves-light red"><i class="material-icons">close</i></a>
+
+         <p><ul id="gp-objectives"></ul></p>
+       </div>
+     </div>
+   </div>
+ </div>
+<div class="row center">
+
+       <a id="next" class="fixed btn-floating center btn-large waves-effect waves-light red"><i class="material-icons">arrow_forward_ios</i></a>
+</div>
+</div>
+    <script src="js/pratiques.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
