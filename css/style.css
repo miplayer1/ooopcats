@@ -6,8 +6,6 @@
 .card {
   min-height: 85vh;
 }
-h3 {font-size: 10vw;}
-#gp-objectives {font-size: 5vw;}
 #why {
   position:fixed;
   bottom:0;
@@ -26,7 +24,7 @@ h3 {font-size: 10vw;}
     padding-top: 45vh;
 }
 .wrapper {
-  min-height: 100vh;
+  min-height: 95vh;
 }
 .btn {
   margin:auto;

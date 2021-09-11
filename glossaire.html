@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,21 +11,21 @@
   </head>
   <body>
     <nav>
-  <div class="nav-wrapper">
+    <div class="nav-wrapper">
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="bonnes-pratiques.html">Bonnes pratiques</a></li>
-      <li><a href="glossaire.html">Glossaire</a></li>
+      <li><a href="bonnes-pratiques.html" class="btn ">Bonnes pratiques</a></li>
+      <li><a href="glossaire.html" class="btn ">Glossaire</a></li>
     </ul>
-  </div>
-</nav>
-<ul class="sidenav" id="mobile-demo">
-  <li><a href="bonnes-pratiques.html">Bonnes pratiques</a></li>
-  <li><a href="glossaire.html">Glossaire</a></li>
-</ul>
+    </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo" class="red">
+    <li><a href="bonnes-pratiques.html" class="btn ">Bonnes pratiques</a></li>
+    <li><a href="glossaire.html" class="btn ">Glossaire</a></li>
+    </ul>
 <div id="">
   <div class="row">
-   <div class="col s12">
+   <div class="col s12 m6 offset-m3">
      <div class="card">
        <div class="card-image">
          <img id="image"src="http://lorempixel.com/400/200/cats">
@@ -41,7 +41,7 @@
        </div>
        <div class="card-reveal">
          <a id="close" class="card-title fixed btn-floating center btn-large waves-effect waves-light red"><i class="material-icons">close</i></a>
-         <p><ul id="gl-descriptions"></ul></p>
+         <p class="flow-text"><ul id="gl-descriptions"></ul></p>
        </div>
      </div>
    </div>
